@@ -36,24 +36,6 @@ class _HomeState extends State<Home> {
         elevation: 0,
        ),
 
-       body: ListView(
- // padding: const EdgeInsets.all(8),
-  children: <Widget>[
-   
-    Container(
-      height: 50,
-      child: const Center(child: Text('Power Engineering')),
-    ),
-    Container(
-      height: 50,
-      child: const Center(child: Text('Telecommunication engineering')),
-    ),
-    Container(
-      height: 50,
-      child: const Center(child: Text('Computer engineering')),
-    ),
-  ],
-),
     );
-  }
-}
+
+  }}
