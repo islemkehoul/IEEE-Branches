@@ -4,6 +4,9 @@ import 'package:electronics_app/controlpage.dart';
 import 'package:electronics_app/powerpage.dart';
 import 'package:electronics_app/telecompage.dart';
 import 'package:flutter/material.dart';
+//import 'package:share/share.dart';
+
+
 
 void main() => runApp(MaterialApp(
  initialRoute: '/',
@@ -38,11 +41,14 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Icon(
-          Icons.settings
-        ),
+        
         backgroundColor: Colors.green[300],
         title: Text('IEEE Branches'),
+        leading: IconButton(
+         icon: Icon(Icons.share), 
+        onPressed:(){
+        }
+        ),
         elevation: 0,
        ),
       body : ListView.builder(
