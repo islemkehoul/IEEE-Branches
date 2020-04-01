@@ -17,7 +17,9 @@ DesignClass({this.ftitle , this.ftext,this.stitle,this.stext ,this.ttitle , this
       title : Text(ftitle),
       backgroundColor: Colors.green[300],
       ),
-    body:  Container(
+    body: SingleChildScrollView(
+    
+     child : Container(
         padding: EdgeInsets.all(10),
         color: Colors.grey[200],
         child: Column(
@@ -76,6 +78,7 @@ DesignClass({this.ftitle , this.ftext,this.stitle,this.stext ,this.ttitle , this
         ),
         
         ),
+    ),
     );
   }
 }
