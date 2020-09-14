@@ -1,6 +1,4 @@
-# electronics_app
-
-A new Flutter project.
+#IEEE Branches
 
 ## Getting Started
-for this project i used the ListView.builder which is a way of constructing lists where children's (Widgets) are built on demand.
+This app containes fruitful infos about the fields of engineering.
